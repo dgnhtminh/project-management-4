@@ -38,7 +38,7 @@
 .sider .inner-menu ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; 
 }
 
 .sider .inner-menu ul li a {
@@ -96,7 +96,7 @@
     border-radius: 5px;
 }
 
-.iamge-preview[src=""] {
+.image-preview[src=""] {
     display: none;
 }
 /* End Image Preview */
