@@ -95,7 +95,6 @@ module.exports.editPatch = async (req, res) => {
 
     if (emailExist) {
         req.flash("error", "Email đã tồn tại!")
-        res.redirect("back")
     } else {
         if(req.body.password) {
             req.body.password = md5(req.body.password)
